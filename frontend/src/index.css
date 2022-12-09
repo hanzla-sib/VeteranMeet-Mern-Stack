@@ -1,0 +1,70 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ ::-webkit-scrollbar {
+  width: 0px;
+  height: 5px;
+} 
+
+
+
+a.active button {
+  background-color: black;
+  
+  color: blanchedalmond;
+}
+.category-btn:hover {
+  background-color: #3D4156 !important;
+  color: black !important;
+}
+
+.category-btn:hover span{
+  color: black !important;
+}
+
+
+
+.category-btn{
+  font-weight: bold !important;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  cursor:pointer;
+  background: transparent;
+  outline: none;
+  border: none;
+  color: black;
+  font-size: medium;
+  padding: 5px 15px;
+  margin: 10px 0px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 900px) {
+  .category-btn{
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width:800px){
+  .copyright{
+    display:none !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .scroll-horizontal {
+    overflow: auto !important;
+  }
+}
